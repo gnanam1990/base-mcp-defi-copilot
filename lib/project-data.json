@@ -1,0 +1,58 @@
+{
+  "repo": "base-mcp-defi-copilot",
+  "name": "DeFi Copilot",
+  "shortName": "DC",
+  "api": "defi-copilot",
+  "category": "Portfolio Intelligence",
+  "tagline": "AI portfolio analytics and user-approved DeFi actions on Base.",
+  "status": "Risk dashboard MVP foundation",
+  "mission": "Read Base DeFi positions, explain risk, compare yield, and prepare transparent transaction batches for user approval.",
+  "primaryAction": "Analyze wallet",
+  "secondaryAction": "Prepare rebalance",
+  "metrics": [
+    {
+      "label": "Wallets scanned",
+      "value": "52",
+      "tone": "blue"
+    },
+    {
+      "label": "Risk alerts",
+      "value": "18",
+      "tone": "amber"
+    },
+    {
+      "label": "Yield delta",
+      "value": "+2.4%",
+      "tone": "green"
+    }
+  ],
+  "workflow": [
+    "User connects Base Account for portfolio reads.",
+    "Copilot ranks risk by protocol, token, and concentration.",
+    "Recommendations explain yield and downside before any action.",
+    "Prepared calls wait for explicit Base Account approval."
+  ],
+  "tools": [
+    "analyze_portfolio",
+    "rank_yield_options",
+    "score_position_risk",
+    "prepare_rebalance"
+  ],
+  "records": [
+    [
+      "Idle USDC",
+      "+5.1% APY option",
+      "Low risk"
+    ],
+    [
+      "LP exposure",
+      "High volatility",
+      "Review"
+    ],
+    [
+      "Borrow health",
+      "Safe",
+      "No action"
+    ]
+  ]
+}
