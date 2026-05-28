@@ -2,29 +2,33 @@
 
 AI portfolio analytics and user-approved DeFi actions on Base.
 
-**Status:** Planned eighth build after risk and data modules exist.
+**Status:** Risk dashboard MVP foundation
 
-DeFi Copilot analyzes positions across Base DeFi, scores risk, recommends rebalancing, and prepares user-approved actions through Base MCP.
+Read Base DeFi positions, explain risk, compare yield, and prepare transparent transaction batches for user approval.
 
-## Why It Exists
-Base MCP gives AI assistants access to Base Account actions such as balances, sends, swaps, contract calls, and x402 payments, with user approval for writes. This project turns that capability into a focused product for Base DeFi users who want clearer portfolio, risk, and yield decisions.
+## Current MVP
+- Base industrial-neon UI theme from the shared suite prompt.
+- Responsive dashboard with wallet/action controls, metrics, workflow, MCP tools, and live record surface.
+- Product status API at `/api/defi-copilot/status`.
+- Smoke checks for required dashboard data.
 
-## Core Capabilities
-- Portfolio dashboard for balances, protocol positions, yield, and risk.
-- Risk model for liquidation, concentration, smart-contract, and APY volatility signals.
-- Recommendation engine that explains suggested changes before any transaction.
-- Prepare endpoints that batch protocol actions through Base MCP send_calls.
-- Read integrations with native Base MCP plugins where available.
+## Local Development
+```bash
+npm install
+npm run dev
+```
 
-## Roadmap Snapshot
-1. Build read-only portfolio and risk dashboard.
-2. Add recommendation cards without execution.
-3. Integrate protocol prepare endpoints for one low-risk rebalance path.
-4. Add MCP plugin/orchestration docs.
-5. Launch public demo with clear safety disclaimers and mainnet-limited actions.
+Open `http://127.0.0.1:3000`.
 
-## Repository Status
-This repository is public from day one. It starts with product, architecture, roadmap, and demo documentation. Implementation commits should stay small and use conventional commit prefixes.
+## Checks
+```bash
+npm run typecheck
+npm run build
+npm run test:smoke
+```
+
+## Next Build Slice
+Wire the mocked dashboard data into real Base Sepolia reads, x402 payment verification, or contract prepare endpoints depending on this product's launch path.
 
 ## License
 MIT
