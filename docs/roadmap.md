@@ -3,23 +3,23 @@
 ## Milestones
 ### 1. Build read-only portfolio and risk dashboard.
 - Deliverable: a working, testable slice that can be committed and reviewed independently.
-- Acceptance: docs updated, local checks pass, and any onchain or x402 behavior verified on Base Sepolia before mainnet.
+- Acceptance: docs updated, local checks pass, and any onchain or x402 behavior verified on Base mainnet with demo limits before production scale.
 
 ### 2. Add recommendation cards without execution.
 - Deliverable: a working, testable slice that can be committed and reviewed independently.
-- Acceptance: docs updated, local checks pass, and any onchain or x402 behavior verified on Base Sepolia before mainnet.
+- Acceptance: docs updated, local checks pass, and any onchain or x402 behavior verified on Base mainnet with demo limits before production scale.
 
 ### 3. Integrate protocol prepare endpoints for one low-risk rebalance path.
 - Deliverable: a working, testable slice that can be committed and reviewed independently.
-- Acceptance: docs updated, local checks pass, and any onchain or x402 behavior verified on Base Sepolia before mainnet.
+- Acceptance: docs updated, local checks pass, and any onchain or x402 behavior verified on Base mainnet with demo limits before production scale.
 
 ### 4. Add MCP plugin/orchestration docs.
 - Deliverable: a working, testable slice that can be committed and reviewed independently.
-- Acceptance: docs updated, local checks pass, and any onchain or x402 behavior verified on Base Sepolia before mainnet.
+- Acceptance: docs updated, local checks pass, and any onchain or x402 behavior verified on Base mainnet with demo limits before production scale.
 
 ### 5. Launch public demo with clear safety disclaimers and mainnet-limited actions.
 - Deliverable: a working, testable slice that can be committed and reviewed independently.
-- Acceptance: docs updated, local checks pass, and any onchain or x402 behavior verified on Base Sepolia before mainnet.
+- Acceptance: docs updated, local checks pass, and any onchain or x402 behavior verified on Base mainnet with demo limits before production scale.
 
 ## Commit Standard
 - `feat:` user-facing behavior.
